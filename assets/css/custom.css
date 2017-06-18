@@ -27,3 +27,28 @@
 	margin: 30px auto 0;
     max-width: 600px;
 }
+
+.project{
+	width: 100%;
+    margin-bottom: 30px;
+}
+
+.carousel-control:hover, .carousel-control:focus {
+    outline: 0;
+    color: #fff;
+    text-decoration: none;
+    opacity: .9;
+}
+
+.carousel-control.right {
+    left: auto;
+    right: 0;
+ }
+
+.img-rounded{
+	padding:0.5em;
+}
+
+.change-icon-color{
+	color:red;
+}
