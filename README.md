@@ -1,3 +1,3 @@
 ### My Portfolio
 
-[Visit](https://yashchaudhary.me) 
+[Visit](http://yashchaudhary.me) 
