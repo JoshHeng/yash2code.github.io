@@ -23,7 +23,7 @@
 <body>
 
 <!-- Navbar start -->
-<nav class="navbar navbar-fixed-top navbar-color-on-scroll">
+<nav class="navbar navbar-fixed-top navbar-color-on-scroll navbar-transparent">
     	<div class="container">
         	<div class="navbar-header">
         		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation-small" aria-expanded="false">
@@ -150,11 +150,35 @@
 
 	<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
 	<script src="assets/js/nouislider.min.js" type="text/javascript"></script>
-
 	
 	<!-- Control Center for Material Kit: activating the ripples, parallax effects, etc -->
 	<script src="assets/js/material-kit.js" type="text/javascript"></script>
+	<script type="text/javascript">
+		
+    $(document).ready(function(){
+     
+    var previousScroll = 0;
+	
+	$(window).scroll(function(event){
+    var scroll = $(this).scrollTop();
 
+    if(!($(".navbar").hasClass("navbar-transparent"))) {
+    if (scroll > previousScroll){
+       $(".navbar").hide();
+    } 
+    
+    else {
+   		$(".navbar").show();
+    }
+   
+    previousScroll = scroll;
+	}
+
+   });
+
+
+});
+	</script>
 
 
 </body>
