@@ -33,7 +33,7 @@
 
 .project {
 	width: 100%;
-	
+
     margin-bottom: 30px;
 }
 
@@ -43,4 +43,9 @@
 
 .change-icon-color {
 	color: red;
+}
+
+
+.project-thumbnail {
+    width: 100%;
 }
