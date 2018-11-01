@@ -17,7 +17,6 @@
 
 .img-raised {
 	max-width: 160px;
-
     margin: -80px auto 0;
 }
 
@@ -27,14 +26,12 @@
 
 .description {
 	margin: 30px auto 0;
-
     max-width: 600px;
 }
 
 .project {
 	width: 100%;
-
-    margin-bottom: 30px;
+  margin-bottom: 30px;
 }
 
 .img-rounded {
