@@ -46,3 +46,63 @@
 .project-thumbnail {
     width: 100%;
 }
+
+.card-columns {
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	
+	align-content: space-around;
+	justify-content: space-around;
+
+}
+.card-columns > .card {
+	width: auto;
+	margin: 1rem;
+	padding: 1rem;
+}
+.card-image {
+	text-align: center;
+	align-content: center;
+
+	max-width: 500px;
+	max-height: 400px;
+	height: auto !important;
+}
+.card-image > img {
+	object-fit: contain !important;
+}
+
+.fade-in-1{
+	animation:1s ease 0s normal forwards 1 fadein;
+	-webkit-animation:1s ease 0s normal forwards 1 fadein;
+	opacity:1;
+}
+
+.fade-in-2{
+	animation:2s ease 0s normal forwards 1 fadein;
+	-webkit-animation:2s ease 0s normal forwards 1 fadein;
+	opacity:1;
+}
+
+.fade-in-3{
+	animation:3s ease 0s normal forwards 1 fadein;
+	-webkit-animation:3s ease 0s normal forwards 1 fadein;
+	opacity:1;
+}
+
+@keyframes fadein{
+	0%{opacity:0}
+	100%{opacity:1}
+}
+
+@-webkit-keyframes fadein{
+	0%{opacity:0}
+	100%{opacity:1}
+}
+
+.accent-colour {
+	color: rgb(125, 0, 146);
+}
